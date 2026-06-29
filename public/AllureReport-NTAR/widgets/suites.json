@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"5ceeb510bb1ce614c5c67e89dc683061","name":"flexiquote-csr","statistic":{"failed":0,"broken":0,"skipped":0,"passed":7,"unknown":0,"total":7}},{"uid":"e7cbc39d6bfafa6bf3ed8521b04e7ac7","name":"csr-setup","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}

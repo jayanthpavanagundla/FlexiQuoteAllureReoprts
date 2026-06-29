@@ -51,6 +51,14 @@ const REPORTS = [
     tag: "CSR, Admin, User",
     color: "#6366f1",
   },
+  {
+    id: 7,
+    name: "NTAR Module",
+    path: "AllureReport-NTAR",
+    description: "Adding, Deleting NTAR Parts",
+    tag: "CSR, Admin, User",
+    color: "#6366f1",
+  },
 ];
 
 function ReportCard({ report, index, visible, stats, reportDate }) {
@@ -181,12 +189,18 @@ export default function App() {
     if (!r.name.toLowerCase().includes(search.toLowerCase())) return false;
 
     const date = reportData[r.id]?.date;
-    if (dateFrom && (!date || new Date(date) < new Date(dateFrom))) return false;
-    if (dateTo && (!date || new Date(date) > new Date(`${dateTo}T23:59:59.999`)))
+    if (dateFrom && (!date || new Date(date) < new Date(dateFrom)))
+      return false;
+    if (
+      dateTo &&
+      (!date || new Date(date) > new Date(`${dateTo}T23:59:59.999`))
+    )
       return false;
 
     return true;
-  }).sort((a, b) => (reportData[b.id]?.date ?? 0) - (reportData[a.id]?.date ?? 0));
+  }).sort(
+    (a, b) => (reportData[b.id]?.date ?? 0) - (reportData[a.id]?.date ?? 0),
+  );
 
   const hasDateFilter = dateFrom || dateTo;
   const clearDateFilter = () => {
@@ -197,7 +211,7 @@ export default function App() {
 
   const toISODate = (d) =>
     `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(
-      d.getDate()
+      d.getDate(),
     ).padStart(2, "0")}`;
 
   const applyPreset = (preset) => {
@@ -220,7 +234,11 @@ export default function App() {
       setActivePreset("week");
       setCalendarOpen(false);
     } else if (preset === "month") {
-      const lastMonthStart = new Date(today.getFullYear(), today.getMonth() - 1, 1);
+      const lastMonthStart = new Date(
+        today.getFullYear(),
+        today.getMonth() - 1,
+        1,
+      );
       const lastMonthEnd = new Date(today.getFullYear(), today.getMonth(), 0);
       setDateFrom(toISODate(lastMonthStart));
       setDateTo(toISODate(lastMonthEnd));
@@ -901,7 +919,16 @@ export default function App() {
                       onClick={goToPrevMonth}
                       aria-label="Previous month"
                     >
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                      <svg
+                        width="14"
+                        height="14"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
                         <polyline points="15 18 9 12 15 6" />
                       </svg>
                     </button>
@@ -911,7 +938,16 @@ export default function App() {
                       onClick={goToNextMonth}
                       aria-label="Next month"
                     >
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                      <svg
+                        width="14"
+                        height="14"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
                         <polyline points="9 18 15 12 9 6" />
                       </svg>
                     </button>
@@ -919,7 +955,9 @@ export default function App() {
 
                   <div className="calendar-grid">
                     {["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"].map((d) => (
-                      <span key={d} className="calendar-weekday">{d}</span>
+                      <span key={d} className="calendar-weekday">
+                        {d}
+                      </span>
                     ))}
                     {calendarDays.map((date, i) =>
                       date ? (
@@ -928,7 +966,8 @@ export default function App() {
                           className={`calendar-day ${
                             toISODate(date) === todayISO ? "today" : ""
                           } ${
-                            toISODate(date) === dateFrom && toISODate(date) === dateTo
+                            toISODate(date) === dateFrom &&
+                            toISODate(date) === dateTo
                               ? "selected"
                               : ""
                           }`}
@@ -938,7 +977,7 @@ export default function App() {
                         </button>
                       ) : (
                         <span key={i} className="calendar-day-empty" />
-                      )
+                      ),
                     )}
                   </div>
                 </div>
@@ -965,7 +1004,10 @@ export default function App() {
                 </div>
 
                 {hasDateFilter && (
-                  <button className="calendar-clear-btn" onClick={clearDateFilter}>
+                  <button
+                    className="calendar-clear-btn"
+                    onClick={clearDateFilter}
+                  >
                     Clear filter
                   </button>
                 )}
