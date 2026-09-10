@@ -1,0 +1,22 @@
+
+
+SKY Smash & Repair
+Vendor Details 
+DATE : 10/09/2026
+Automation 63754Name 
+Is Active
+TypeAddress Line 1Address Line 2Address Line 3SuburbDefault
+Address
+TypePhone NoDefault
+Phone 
+Email Address
+TypeEmail AddressDefault
+LastnameFirstnameDefault
+Contact
+Vendor Account No
+ABN
+BSB
+Account No 
+Settlement Discount0.00
+G/L Account51000 Cost of Sales
+Copyright © 2024 PartsCheck. All rights reserved.PAGE 1

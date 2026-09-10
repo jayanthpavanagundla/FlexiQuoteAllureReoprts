@@ -1,0 +1,79 @@
+
+
+SKY Smash & Repair
+Admin GL Mapping
+DATE : 10/09/2026
+Revenue Accounts (Income)MYOB Accounts
+R&R Sales
+41010 Remove & Replace Sales 
+Remove Weld & Align
+41020 Remove Weld & Align
+Repair Sales
+41030 Repair Sales
+Painting Sales
+41040 Painting Sales
+Fibre Glass Sales
+41050 Fibreglass Sales
+Crush Sales
+41060 Crush Sales
+Clean and Detail Sales
+41070 Clean & Detail Sales
+Mechanical Sales
+41080 Mechanical Sales
+Parts Sales
+41090 Parts Sales
+OPG Sales
+41100 OPG Sales
+Misc Sales
+41110 Miscellaneous Sales
+Sublet Sales
+41120 Sublet Sales
+Excess
+41130 Excess
+Contrib
+41140 Contribution
+PDR Items Sales
+41150 PDR Items
+PDR R & R Sales
+41160 PDR R & R
+Towing Sales
+41170 Towing Revenue
+Sales Discount
+41180 Sales Discount
+Other Revenue
+41210 Other Revenue
+Banking Accounts (Asset)
+Main Bank Account
+11030 Bank Account
+Un-Deposited Funds
+11040 Undeposited Funds
+Other Accounts
+Accounts Receivable
+11020 Accounts Receivable
+Accounts Payable
+21400 Accounts Payable
+Retained Profits
+31040 Retained Profits - Prior year
+Parts Expense
+51010 Parts Supplies Expense
+GST
+G/L Acct Collected
+21430 GST Collected
+G/L Acct to be Refunded
+11060 GST to be Refunded
+G/L Acct With-held
+21440 Tax With-held
+Copyright © 2024 PartsCheck. All rights reserved.
+PAGE 1
+
+DATE : 10/09/2026
+Payroll Defaults
+PAYG Liability A/C
+21460 Provision for Wages PAYG
+Superannuation Liability 
+A/C
+21470 Provision for Superannuation
+Child Support A/C
+21010 Child Support
+Copyright © 2024 PartsCheck. All rights reserved.
+PAGE 2

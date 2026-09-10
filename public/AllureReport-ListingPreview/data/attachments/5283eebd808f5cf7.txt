@@ -1,0 +1,20 @@
+
+
+   Recurring Remarks List
+DATE : 10/09/2026
+SKY Smash & 
+Repair
+Remark DescriptionCreated ByIs-Active
+Automation 59308uma
+√
+Testing 0001ronaldo
+√
+Testing 0002ronaldo
+√
+Total Count :  3
+Remark Description : All
+Active : Active
+Sort By : Remark Description
+Search Filter Criteria 
+PAGE 1
+Copyright © 2024 PartsCheck. All rights reserved.

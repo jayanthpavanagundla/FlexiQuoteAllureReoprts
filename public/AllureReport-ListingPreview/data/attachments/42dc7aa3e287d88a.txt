@@ -1,0 +1,109 @@
+
+
+SKY Smash & 
+Repair
+Insurer - Details 
+DATE : 10/09/2026
+A & G Insurance Services
+Name : 
+ABN : 
+Address : 
+Phone : 
+41000 Sales Revenue
+Contact Person 
+Active
+G/L Account : 
+Active : 
+E - Com : 
+TypePhone No
+Email : 
+First NameLast Name
+AGAssessor02
+AGAssessor03
+AGAssessor01
+BSB : 
+Your Repairer ID :
+Accout No : 
+Arnie Insurer Brand
+Insurer Brand :
+Invoice w/o GST
+Excess : 
+HoursQuote Method : FQ Times
+Labour Time :
+Rates 
+Rates TypeRate
+CD0.00
+CRUSH0.00
+FIBER0.00
+MECH0.00
+REP12.25
+RR85.00
+RWA34.00
+Default Paint Rates : 
+Paint Rates TypeRate
+M144.00
+M255.00
+M366.00
+S111.00
+S222.00
+S333.00
+Consumable : 
+Description ConsumableCategoryValue
+Panel Consumables. Per Repair hourRA4.90
+Panel Consumables. No RepairsRA7.25
+TypeAddress1Suburb
+TypeEmail Addres
+ARBN : 
+Copyright © 2024 PartsCheck. All rights reserved.
+
+DATE : 10/09/2026
+Paint Consumables. Per Paint hourPAINT8.70
+eMTA R&R Welded AllowancesR&R6.97
+RACQ Consumables. PercentageLAB2.70
+Loading Value : 
+Description LoadingCategoryValueLower 
+Treshold
+Upper Treshold
+Exchanged PartsPRT0.25F2F2
+R&R Doos re-skinnedR&R0.25F2F2
+Repair hour above 0.25RA0.10F2F2
+Repair hour above 1RA0.25F2F2
+Used PartsPRT0.10F2F2
+Paint Material :
+Item NoTypeValue
+9996M239.00
+9993S128.00
+9989S318.92
+9997M344.40
+9995M133.90
+9994S231.20
+9970M3Plus0.32
+Special Rates : 
+Item NoDescriptionValue
+4912Sound Deadener factory pre-cut 
+(hrs/decimetre)
+0.02
+4911Sound Deadener simple shape (hrs/decimetre)0.02
+9999Setup / Colour Match 2 Colour as MIS (hrs x 
+labour rate)
+0.50
+491Sound Deadener complex shape 
+(hrs/decimetre))
+0.04
+Default Markup
+87.00 %New Markup
+20.00 %Used
+20.0000 %Recore
+20.0000 %After Market
+0.0000 %Exchange
+0.0000 %Reconditioned
+Copyright © 2024 PartsCheck. All rights reserved.
+
+DATE : 10/09/2026
+9998Setup / Colour Match 1 Colour as MIS (hrs x 
+labour rate)
+0.33
+Quote Template : 
+Auto Items : 
+Item NoDescriptionValueReport
+Copyright © 2024 PartsCheck. All rights reserved.

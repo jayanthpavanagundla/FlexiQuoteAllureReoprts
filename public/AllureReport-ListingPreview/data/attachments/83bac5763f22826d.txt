@@ -1,0 +1,25 @@
+
+
+SKY Smash & 
+Repair
+Unscheduled Model - Details 
+DATE : 10/09/2026
+Body Styles 
+2 = 2 Doors 
+3 = 3 Doors
+4 = 4 Doors
+5 = 5 Doors 
+B = Bus
+C = Van 
+M = Cycles 
+O = Others
+T = Truck 
+U = UTE 
+W = Wagon
+MakeAUDI
+Model147 - Type 190 From 01/2001 to 05/2010 [17]
+Body Styles2
+Cylinders2
+Production Year[ 11 / 2000 ]  To [ 9 / 2024 ] 
+ActiveActive
+Copyright © 2024 PartsCheck. All rights reserved.
